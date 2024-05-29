@@ -8,7 +8,7 @@ Automatically downloads item maps when in render distance of an item frame with 
 ## Notice: some colors for pre 1.12 might be slightly wrong
 
 ### Supported minecraft versions
-1.8.x - 1.19.3
+1.8.x - 1.20
 
 ## Installing
 1. Install the plugin with npm
