@@ -11,8 +11,6 @@ interface MapSaverOptions {
   fileSuffix?: string
 }
 
-type newMapEventListener = (name: string, png: Buffer, id: number ) => void
-
 declare module 'mineflayer-item-map-downloader' {
   export function mapDownloader(bot: Bot): void;
 
@@ -46,7 +44,7 @@ declare module 'mineflayer' {
   }
 
   interface BotEvents {
-    'new_map': (listener: newMapEventListener) => Promise<void> | void
+    'new_map': ({ name, png, id }) => void
   }
 
   interface BotOptions {
