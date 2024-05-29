@@ -1,3 +1,6 @@
+* 1.3.0
+- Support up to Major version 1.20
+
 * 1.2.0
 - Support up to 1.19.3
 
